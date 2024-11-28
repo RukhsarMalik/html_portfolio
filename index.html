@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+          <div class="logo">
+            <img class="logo_img" src="/images/logo/logo.png" alt="Logo">
+            <a class="logo_name">Rukhsar Malik</a>
+          </div>
+          <nav class="nav">
+            <a href="#hero">Home</a>
+            <a href="#About">About</a>
+            <a href="#Skill"> Skills</a>
+            <a href="#Project">Projects</a>
+            <a href="#Contact">Contact</a>
+          </nav>
+        </div>
+    </header>
+    
+    <!-- hero section -->
+    <section id="Hero" class="hero-container">
+        <div class="hero-container-inner">
+          <div class="hero-image-container">
+            <img class="hero-image" alt="hero" src="/images/profile/pic.jpg" />
+          </div>
+          <div class="hero-text-container">
+            <h1 class="typewriter-text">
+              I am <br class="hidden lg:inline-block" />
+              <span id="typewriter" class="typewriter"></span>
+            </h1>
+            <p class="hero-description">
+                Hello! I’m a passionate front-end developer dedicated to crafting intuitive and responsive web experiences. With a focus on HTML, CSS, Next.js and JavaScript, I aim to transform ideas into clean, efficient code and bring designs to life. I enjoy creating seamless user interfaces and constantly seek to enhance my skills in building accessible and engaging web applications
+            </p>
+            <div class="cta-container">
+              <a href="#Contact">
+                <button class="cta-button">
+                  Contact
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- about section -->
+      <div id="About">
+        <section class="about-section">
+          <div class="about-container">
+            <img
+              class="about-image"
+              src="/images/profile/pic.jpg"
+              alt="About me"
+            />
+            <div class="about-text">
+              <h1 class="about-title">About Me</h1>
+              <p class="about-description">
+                I hold a Master degree in Mathematics from the University of Karachi and bring six years of teaching experience to my current role as a Junior Elementary School Teacher (JEST) at Government Girls Elementary School Ahmedabad. Currently, I am also advancing my development as a student at GIAIC.
+              </p>
+              <div class="about-button-container">
+                <a
+                  href="https://myresume-tau-jet.vercel.app/"
+                  target="_blank"
+                  class="about-button"
+                >
+                  View CV
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- skill section -->
+
+      <div id="Skill">
+        <section class="skills-section">
+          <div class="skill_container">
+            <div class="section-header">
+              <h2>SKILLS</h2>
+              <h1>My Skills</h1>
+            </div>
+            <div class="skills-row">
+              <div class="skill-card">
+                <div class="skill-icon">HTML</div>
+                <div class="skill-progress">
+                  <div class="skill-progress-inner" style="width: 100%;"></div>
+                </div>
+                <p class="skill-percentage">100%</p>
+              </div>
+              <div class="skill-card">
+                <div class="skill-icon">CSS</div>
+                <div class="skill-progress">
+                  <div class="skill-progress-inner" style="width: 90%;"></div>
+                </div>
+                <p class="skill-percentage">90%</p>
+              </div>
+              <div class="skill-card">
+                <div class="skill-icon">TypeScript</div>
+                <div class="skill-progress">
+                  <div class="skill-progress-inner" style="width: 80%;"></div>
+                </div>
+                <p class="skill-percentage">80%</p>
+              </div>
+              <div class="skill-card">
+                <div class="skill-icon">Next.js</div>
+                <div class="skill-progress">
+                  <div class="skill-progress-inner" style="width: 60%;"></div>
+                </div>
+                <p class="skill-percentage">60%</p>
+              </div>
+              <div class="skill-card">
+                <div class="skill-icon">Python</div>
+                <div class="skill-progress">
+                  <div class="skill-progress-inner" style="width: 70%;"></div>
+                </div>
+                <p class="skill-percentage">70%</p>
+              </div>
+              <div class="skill-card">
+                <div class="skill-icon">Tailwind CSS</div>
+                <div class="skill-progress">
+                  <div class="skill-progress-inner" style="width: 60%;"></div>
+                </div>
+                <p class="skill-percentage">60%</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      
+      <!-- Projects  -->
+
+      <div id="Project">
+        <section class="section">
+            <div class="project_container">
+                <div class="project-header">
+                    <h1 class="project-title">My Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-item">
+                        <img class="project-image" alt="gallery" src="/images/projects/resume.png">
+                        <div class="project-content">
+                            <h2 class="project-heading">Resume Builder Project</h2>
+                            <p class="project-description">Generate resume in one click.</p>
+                            <a target="_blank" href="https://milestone5-omega-one.vercel.app/" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-list">
+                        <div class="project-card">
+                            <img class="project-image" alt="gallery" src="/images/projects/YouTube.jpg">
+                            <div class="project-content">
+                                <h2 class="project-heading">YouTube Clone</h2>
+                                <a target="_blank" href="https://myfirst-website-alpha.vercel.app/" class="project-link">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img class="project-image" alt="gallery" src="/images/projects/book.jpeg">
+                            <div class="project-content">
+                                <h2 class="project-heading">Book Readers</h2>
+                                <a target="_blank" href="https://multipage-puce.vercel.app/" class="project-link">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Contact -->
+    <div id="Contact">
+        <section class="contact-section">
+            <div class="map-container">
+                <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7247.03773736974!2d67.5793329924803!3d24.743392905890918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394cd9e8b5c5ad91%3A0xd83d50494137fdde!2sGharo%2C%20Thatta%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1731247516674!5m2!1sen!2s" class="map"></iframe>
+            </div>
+            <div class="contact_container">
+                <div class="contact-form-container">
+                    <h2 class="contact-title">Contact</h2>
+                    <p class="contact-description">Feel free to contact</p>
+                    <form class="contact-form">
+                        <label for="email" class="contact-label">Email</label>
+                        <input type="email" id="email" name="email" class="contact-input" placeholder="Your Email" />
+                        
+                        <label for="message" class="contact-label">Message</label>
+                        <textarea id="message" name="message" class="contact-textarea" placeholder="Your Message"></textarea>
+                        
+                        <button type="submit" class="contact-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="footer-container">
+      <footer class="footer">
+        <div class="footer-content">
+          <a href="#" class="footer-logo">
+            <img src="/images/logo/logo.png" alt="RM" class="logo-image">
+            <span class="logo-text">Rukhsar Malik</span>
+          </a>
+          <p class="footer-text">
+            © 2020 Rukhsar Malik
+          </p>
+          <div class="footer-icons">
+            <a href="https://www.facebook.com/rukhsar.malik.3194" target="_blank" class="footer-icon facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/rukhsar-malik-164147225" target="_blank" class="footer-icon linkedin">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
