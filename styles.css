@@ -657,7 +657,7 @@ body {
       padding: 5px 0;
     }
     .hero-image{
-      width: 60%;
+      width: 55%;
     }
     .hero-title {
         font-size: 1.5rem;
@@ -674,7 +674,7 @@ body {
     .about-image {
         width: 150px; /* Smaller image size */
         height: 200px;
-        margin-top: 30px;
+        margin-top: 20px;
       }
     
       .about-title {
